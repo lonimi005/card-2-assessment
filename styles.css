@@ -1,0 +1,42 @@
+body {
+  margin: 50px auto;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: aliceblue;
+}
+
+.main {
+   background-color: aliceblue;
+   background-image: url(https://rb.gy/54430);
+   background-position: center;
+   background-size: cover;
+   background-blend-mode: multiply;
+   background-repeat: no-repeat;
+   color: white;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sub-contain {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+li::marker {
+   content: '⭐';
+}
